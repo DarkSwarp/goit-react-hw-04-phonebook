@@ -1,0 +1,20 @@
+.label {
+  display: block;
+  margin-top: 10px;
+  color: grey;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.input {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  width: 180px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.input:focus {
+  outline-color: orange;
+}

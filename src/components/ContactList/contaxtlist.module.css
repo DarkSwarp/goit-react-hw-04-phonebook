@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  margin-top: 10px;
+  text-align: left;
+  padding: 0;
+}
+.item {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+}
+.btn {
+  display: inline-block;
+
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.637);
+  background-color: rgb(20, 71, 130);
+}
